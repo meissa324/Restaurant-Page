@@ -10,6 +10,6 @@ module.exports = merge(common,{
     
     // optimization
     optimization: {
-        runTimeChunk:"single",
+        runtimeChunk:"single",
     }
 })
