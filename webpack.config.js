@@ -44,7 +44,8 @@ module.export ={
     //* devtool
     devtool:" inline-source-map",
 
-    //* devServer, automate "npm run build or npx ..."
+    //* devServer, automate "npm run build or npx ..." 
+    //(install before use)
     devServer:{
         static: "./dist",
         watchFile:["src/index.html"],
