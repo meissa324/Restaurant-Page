@@ -6,13 +6,13 @@ module.exports = merge(common,{
     
     //* devtool
     //(no need to install, built in)
-    devtool:" inline-source-map",
+    devtool: "inline-source-map",
     
     //* devServer, automate "npm run build or npx webpack --config webpack.config.js" 
     //(npm install before use)
     devServer:{
         static: "./dist",
-        watchFile:["src/index.html"],
+        watchFiles:["src/index.html"],
         port: 9000,
     },
 
