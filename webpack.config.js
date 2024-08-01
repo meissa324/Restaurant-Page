@@ -1,6 +1,10 @@
 //? mandatory
 //* useful
 
+
+//? import files to be bundled
+import "./style.css";
+
 //? import nodejs built in path module
 const path = require("path");//uses node module syntax
 
