@@ -8,8 +8,9 @@ import "./style.css";
 //? import nodejs built in path module
 const path = require("path");//uses node module syntax
 
-//* install plugin
-const HtmlWebpackPlugin =require("html-webpack-plugin");
+//* import html-webpack-plugin in path module
+//(npm install before use)
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { watchFile } = require("fs");
 const { runInContext } = require("vm");
 
@@ -49,7 +50,7 @@ module.export ={
     devtool:" inline-source-map",
 
     //* devServer, automate "npm run build or npx ..." 
-    //(install before use)
+    //(npm install before use)
     devServer:{
         static: "./dist",
         watchFile:["src/index.html"],
