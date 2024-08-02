@@ -15,13 +15,13 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { watchFile } = require("fs");
 const { runInContext } = require("vm");
 
-module.export ={
+module.exports ={
     //? entry point
     entry: "./src/index.js",
     
     //? where compiled output will go
     output :{
-        filename: "bundle.js",
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname,"dist")
     },
     
@@ -31,13 +31,14 @@ module.export ={
         rules:[
 
             {//css
+                //(npm install before use)
                 test: /\.css$/i,
                 use: ["style-loader","css-loader"]
             },
 
             {//images
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                types:"asset/resources",
+                type:"asset/resources",
             },
 
             {//fonts
