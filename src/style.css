@@ -1,0 +1,25 @@
+:root{
+    font-size: 16px;
+}
+header{
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    /* position */
+
+    /* box-model */
+    height: 10svh;
+    width: 100svw;
+    background-color: aquamarine;
+    /* typography */
+}
+
+nav{
+    /* display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
