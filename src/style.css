@@ -27,6 +27,6 @@ nav{
 div{
     width: 100px;
     height: 100px;
-    /* background: url('./images/mexican-food.jpg'); */
-    background-image: url('./images/mexican-food.jpg');
+    background: url('./images/mexican-food.jpg');
+    /* background-image: url('./images/mexican-food.jpg'); */
 }

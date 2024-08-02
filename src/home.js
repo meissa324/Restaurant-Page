@@ -12,3 +12,7 @@ function divComponent(){
     return element;
 }
 document.appendChild(divComponent());
+
+
+
+export{divComponent}
