@@ -4,7 +4,7 @@
 
 //? import files to be bundled
 // import "./src/style.css";//can't use this
-require("./src/style.css");
+// require("./src/style.css"); no need to import here if its imported in index.js
 
 //? import nodejs built in path module
 const path = require("path");//uses node module syntax
@@ -38,7 +38,7 @@ module.exports ={
 
             {//images
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type:"asset/resources",
+                type:"asset/resource",
             },
 
             {//fonts
