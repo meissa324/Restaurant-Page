@@ -1,4 +1,5 @@
 import './style.css';//so it gets compile
-//import images before using
-// import "./images/mexican-food.jpg";
+import {divComponent} from "./home.js" //to import components
 
+
+document.getElementById('content').appendChild(divComponent());

@@ -58,7 +58,7 @@ module.exports ={
             //output file name
             filename:"index.html",
             //where to add html from bundled js
-            inject:"div#content",
+            inject:"body",
         })
     ],
 
