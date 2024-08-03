@@ -1,5 +1,6 @@
 import './style.css';//so it gets compile
-import {divComponent} from "./home.js" //to import components
+import {mainImgComponent,secImgComponent} from "./home.js" //to import components
 
 
-document.getElementById('content').appendChild(divComponent());
+document.getElementById('content').appendChild(mainImgComponent());
+document.getElementById('content').appendChild(secImgComponent());

@@ -24,8 +24,17 @@ nav{
     gap: 100px;
 }
 
-div .main-img{
+.main-img{
     width: 100svw;
     height: 90svh;
     background: url('./images/mexican-food.jpg');
+}
+
+
+.second-img{
+    width: 100svw;
+    height: 3cap;
+    display: flex;
+    background: black;
+
 }
