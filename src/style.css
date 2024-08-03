@@ -23,20 +23,8 @@ nav{
     justify-content: center;
     gap: 100px;
 }
-/*  affecting our div w/ the class content*/ 
-/* div{
-    width: 100svw;
-    height: 90svh;
-    background: url('./images/mexican-food.jpg');
-} */
 
-/* below doesn't work */
-main-img{
-    width: 100svw;
-    height: 90svh;
-    background: url('./images/mexican-food.jpg');
-}
-div #main-img{
+div .main-img{
     width: 100svw;
     height: 90svh;
     background: url('./images/mexican-food.jpg');

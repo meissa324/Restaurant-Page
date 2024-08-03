@@ -7,9 +7,7 @@ function divComponent(){
     const element = document.createElement('div');
 
     //add class
-    // element.classList.toggle("main-img"); //doesn't work
-    element.classList.add("main-img"); //doesn't work
-    element.setAttribute("id","main-img"); //doesn't work
+    element.classList.toggle("main-img"); //doesn't work
     
     //return component when function is called
     return element;
