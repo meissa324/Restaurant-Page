@@ -38,3 +38,16 @@ nav{
     background: black;
 
 }
+
+.second-img-left, .second-img-right{
+    /* take up equal sizes of space */
+    flex:1 1 0;
+}
+
+.second-img-left{
+    background: url(./images/dessert-img.jpg);
+}
+
+.second-img-right{
+    background: url(./images/drink-img.jpg);
+}
