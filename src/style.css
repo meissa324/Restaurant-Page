@@ -27,7 +27,8 @@ nav{
 .main-img{
     width: 100svw;
     height: 90svh;
-    background: url('./images/mexican-food.jpg');
+    background: url('./images/food-img.jpg');
+    background-position: center;
 }
 
 
@@ -46,8 +47,12 @@ nav{
 
 .second-img-left{
     background: url(./images/dessert-img.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .second-img-right{
     background: url(./images/drink-img.jpg);
+    background-size: cover;
+    background-position: center;
 }
