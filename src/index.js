@@ -12,6 +12,7 @@ function selectHome(){
     document.querySelector(".second-img").appendChild(secImgComponentRight());
 }
 
-
+function selectMenu(){}
+document.getElementById("content").appendChild(menuComponent());
 //append footer
 document.getElementById('content').appendChild(footer());
