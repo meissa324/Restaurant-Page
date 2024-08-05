@@ -8,13 +8,14 @@ function formComponent(){
     return element;
 }
 
-
+//creates input element
 function inputComponent(){
     //create input
     element = document.createElement("input")
 
 }
 
+//creates label element
 function labelComponent(){
     //create label
     element = document.createElement("label");
@@ -23,16 +24,11 @@ function labelComponent(){
 
 }
 
+//creates text-area element
 function textAreaComponent(){
     element = document.createElement("text-area");
 }
+
 //append to form element(inside form element)
 
-//label for input element
-//input element
-
-//label for input element
-//input element
-
-//label for text-area element
-//text-area element
+export{formComponent,inputComponent,labelComponent,textAreaComponent}
