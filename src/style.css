@@ -67,3 +67,10 @@ nav{
     color: white; /*for font color*/
 }
 
+.menu{
+    width: 100svw;
+    height: 90svh;
+    background: url(./images/menu-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
