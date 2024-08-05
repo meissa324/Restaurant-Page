@@ -46,10 +46,22 @@ function secImgComponentRight(){
     //return component when function is called
     return element;
 }
+function footer(){
+    //create element
+    const element = document.createElement('div');
+
+    //add class
+    element.classList.toggle("footer");
+
+    element.textContent = "footer"
+    
+    //return component when function is called
+    return element;
+}
 
 
 //create second component left and right div
 //append them in index.js, or should i append them here?? or will this file just hold all the components?
 
 //create footer component to hold website info(have this consistent throughout all pages)
-export{mainImgComponent, secImgComponent, secImgComponentLeft, secImgComponentRight}
+export{mainImgComponent, secImgComponent, secImgComponentLeft, secImgComponentRight, footer}

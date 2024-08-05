@@ -1,5 +1,7 @@
 :root{
     font-size: 16px;
+
+    /* color theme is green brown black */
 }
 header{
     /* display */
@@ -12,7 +14,7 @@ header{
     /* box-model */
     height: 10svh;
     width: 100svw;
-    background-color: aquamarine;
+    background-color: #6B8A7A;
     /* typography */
 }
 
@@ -55,4 +57,12 @@ nav{
     background: url(./images/drink-img.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.footer{
+    width: 100svw;
+    height: 45svh;
+    display: flex;
+    background: black;
+    color: white; /*for font color*/
 }
