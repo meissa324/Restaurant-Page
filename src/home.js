@@ -26,6 +26,7 @@ function secImgComponent(){
     //return component when function is called
     return element;
 }
+
 function secImgComponentLeft(){
     //create element
     const element = document.createElement('div');
@@ -36,6 +37,7 @@ function secImgComponentLeft(){
     //return component when function is called
     return element;
 }
+
 function secImgComponentRight(){
     //create element
     const element = document.createElement('div');
@@ -46,6 +48,7 @@ function secImgComponentRight(){
     //return component when function is called
     return element;
 }
+
 function footer(){
     //create element
     const element = document.createElement('div');

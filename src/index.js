@@ -15,5 +15,7 @@ function selectHome(){
 function selectMenu(){
     document.getElementById("content").appendChild(menuComponent());
 }
+
+
 //append footer
 document.getElementById('content').appendChild(footer());
