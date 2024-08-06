@@ -23,6 +23,7 @@ function selectContact(){
 //adding the form
 document.getElementById('content').appendChild(formComponent());
 document.querySelector("form").appendChild(inputComponent());
+document.querySelector("form").appendChild(inputComponent());
 
 //append footer
 document.getElementById('content').appendChild(footer());

@@ -18,7 +18,14 @@ function inputComponent(){
 }
 
 //creates label element
-function labelComponent(){
+function nameLabelComponent(){
+    //create label
+    const element = document.createElement("label");
+    //its attribute changed when appended
+    return element;
+
+}
+function emailLabelComponent(){
     //create label
     const element = document.createElement("label");
     //its attribute changed when appended
