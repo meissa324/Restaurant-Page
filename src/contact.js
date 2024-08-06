@@ -29,6 +29,8 @@ function emailInputComponent(){
 function nameLabelComponent(){
     //create label
     const element = document.createElement("label");
+    //label text
+    element.textContent = "name";
     //link to appropriate input
     element.setAttribute("for","name");
     //return element
@@ -38,6 +40,8 @@ function nameLabelComponent(){
 function emailLabelComponent(){
     //create label
     const element = document.createElement("label");
+    //label text
+    element.textContent = "name";
     //link to appropriate input
     element.setAttribute("for","email");
     //return element
@@ -54,4 +58,4 @@ function textAreaComponent(){
 
 //append to form element(inside form element)
 
-export{formComponent,inputComponent,labelComponent,textAreaComponent}
+export{formComponent,nameInputComponent,emailInputComponent,emailLabelComponent,nameLabelComponent,textAreaComponent}
