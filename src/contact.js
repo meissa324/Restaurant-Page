@@ -22,6 +22,8 @@ function nameLabelComponent(){
     //create label
     const element = document.createElement("label");
     //its attribute changed when appended
+    element.setAttribute("id","name");
+    //return element
     return element;
 
 }
@@ -29,6 +31,8 @@ function emailLabelComponent(){
     //create label
     const element = document.createElement("label");
     //its attribute changed when appended
+    element.setAttribute("id","email");
+    //return element
     return element;
 
 }
