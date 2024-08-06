@@ -9,10 +9,18 @@ function formComponent(){
 }
 
 //creates input element
-function inputComponent(){
+function nameInputComponent(){
     //create input
     const element = document.createElement("input");
+    element.setAttribute("id","name");
+    return element;
 
+}
+
+function emailInputComponent(){
+    //create input
+    const element = document.createElement("input");
+    element.setAttribute("id","email");
     return element;
 
 }
@@ -21,8 +29,8 @@ function inputComponent(){
 function nameLabelComponent(){
     //create label
     const element = document.createElement("label");
-    //its attribute changed when appended
-    element.setAttribute("id","name");
+    //link to appropriate input
+    element.setAttribute("for","name");
     //return element
     return element;
 
@@ -30,8 +38,8 @@ function nameLabelComponent(){
 function emailLabelComponent(){
     //create label
     const element = document.createElement("label");
-    //its attribute changed when appended
-    element.setAttribute("id","email");
+    //link to appropriate input
+    element.setAttribute("for","email");
     //return element
     return element;
 
