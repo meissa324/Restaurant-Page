@@ -51,7 +51,7 @@ function secImgComponentRight(){
 
 function footer(){
     //create element
-    const element = document.createElement('div');
+    const element = document.createElement('footer');
 
     //add class
     element.classList.toggle("footer");
