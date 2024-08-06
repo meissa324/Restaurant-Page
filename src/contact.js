@@ -3,7 +3,7 @@
 //form element
 function formComponent(){
     //create element
-    element = document.createElement("form");
+    const element = document.createElement("form");
 
     return element;
 }
@@ -11,22 +11,26 @@ function formComponent(){
 //creates input element
 function inputComponent(){
     //create input
-    element = document.createElement("input")
+    const element = document.createElement("input");
+
+    return element;
 
 }
 
 //creates label element
 function labelComponent(){
     //create label
-    element = document.createElement("label");
+    const element = document.createElement("label");
     //its attribute changed when appended
-
+    return element;
 
 }
 
 //creates text-area element
 function textAreaComponent(){
-    element = document.createElement("text-area");
+    const element = document.createElement("text-area");
+
+    return element;
 }
 
 //append to form element(inside form element)

@@ -20,8 +20,9 @@ function selectMenu(){
 function selectContact(){
 
 }
-    document.getElementById('content').appendChild(formComponent());
-    document.querySelector("form").appendChild(inputComponent());
+//adding the form
+document.getElementById('content').appendChild(formComponent());
+document.querySelector("form").appendChild(inputComponent());
 
 //append footer
 document.getElementById('content').appendChild(footer());

@@ -74,3 +74,11 @@ nav{
     background-size: cover;
     background-position: center;
 }
+
+/* quick form styling */
+form{
+    width: 50svw;
+    height: 50svh;
+    border: 1rem solid black;
+    background-color: black;
+}
