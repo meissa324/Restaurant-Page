@@ -41,9 +41,23 @@ function emailLabelComponent(){
     //create label
     const element = document.createElement("label");
     //label text
-    element.textContent = "name";
+    element.textContent = "email";
     //link to appropriate input
     element.setAttribute("for","email");
+    //make the type email
+    element.setAttribute("type","email");
+    //return element
+    return element;
+
+}
+
+function textAreaLabelComponent(){
+    //create label
+    const element = document.createElement("label");
+    //label text
+    element.textContent = "tell us more";
+    //link to appropriate input
+    element.setAttribute("for","text-area");
     //return element
     return element;
 
@@ -51,11 +65,11 @@ function emailLabelComponent(){
 
 //creates text-area element
 function textAreaComponent(){
-    const element = document.createElement("text-area");
-
+    const element = document.createElement("textarea");
+    element.setAttribute("id","text-area");
     return element;
 }
 
 //append to form element(inside form element)
 
-export{formComponent,nameInputComponent,emailInputComponent,emailLabelComponent,nameLabelComponent,textAreaComponent}
+export{formComponent,nameInputComponent,emailInputComponent,emailLabelComponent,nameLabelComponent,textAreaComponent,textAreaLabelComponent}
