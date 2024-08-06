@@ -19,18 +19,18 @@ function selectMenu(){
 
 function selectContact(){
 
+    //adding the form to dom
+    document.getElementById('content').appendChild(formComponent());
+    //name input and label
+    document.querySelector("form").appendChild(nameLabelComponent());
+    document.querySelector("form").appendChild(nameInputComponent());
+    //email input and label
+    document.querySelector("form").appendChild(emailLabelComponent());
+    document.querySelector("form").appendChild(emailInputComponent());
+    //textarea input and labe;
+    document.querySelector("form").appendChild(textAreaLabelComponent());
+    document.querySelector("form").appendChild(textAreaComponent());
 }
-//adding the form
-document.getElementById('content').appendChild(formComponent());
-//name label
-document.querySelector("form").appendChild(nameLabelComponent());
-document.querySelector("form").appendChild(nameInputComponent());
-//email label
-document.querySelector("form").appendChild(emailLabelComponent());
-document.querySelector("form").appendChild(emailInputComponent());
-
-document.querySelector("form").appendChild(textAreaLabelComponent());
-document.querySelector("form").appendChild(textAreaComponent());
 
 //append footer
 document.getElementById('content').appendChild(footer());
